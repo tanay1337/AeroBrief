@@ -13,7 +13,7 @@ AeroBrief brings airport weather, route planning, pre-flight materials, a pilot 
 <details open>
 <summary><strong>Android</strong></summary>
 
-1. Open this repository's **Releases** page.
+1. Open this repository's [**Releases**](https://github.com/tanay1337/AeroBrief/releases) page.
 2. Download the latest AeroBrief `.apk` file.
 3. Open it on your Android device and allow installation from that source if Android asks.
 

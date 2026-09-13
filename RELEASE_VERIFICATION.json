@@ -1,0 +1,30 @@
+{
+  "version": "0.16.0",
+  "versionCode": 94,
+  "tests": 182,
+  "testSuites": 43,
+  "typecheckPassed": true,
+  "lintPassed": true,
+  "airportValidationPassed": true,
+  "zipIntegrity": true,
+  "hermesBytecodeVersion": 98,
+  "productionBundleMatches": true,
+  "nativeEntriesUnchanged": true,
+  "embeddedAccountIdentifiersRemoved": true,
+  "primaryCompetitorReferencesAbsent": true,
+  "intentionalReferencesRetained": [
+    "logbook interoperability identifiers",
+    "external wind-map link"
+  ],
+  "exportAssetsChecked": 47,
+  "storedEntriesAligned": 317,
+  "nativeLibrariesAligned": 92,
+  "apkSHA256": "8cdc18efbf4f2cbf7c8ced7161af8eae1ec055a362e2817eabd659f56e85e313",
+  "v2SignatureVerified": true,
+  "certificateContinuityVerified": true,
+  "certificateSHA256": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+  "physicalDeviceVerified": false,
+  "buildMethod": "New production application bundle; compatible preceding native shell",
+  "androidProductionExportPassed": true,
+  "iosProductionExportPassed": true
+}

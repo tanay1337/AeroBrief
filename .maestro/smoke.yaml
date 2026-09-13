@@ -1,0 +1,16 @@
+appId: com.aerobrief.android
+---
+- launchApp:
+    clearState: true
+- assertVisible: "Informational use only"
+- tapOn: "I understand"
+- assertVisible: "Favorites"
+- tapOn: "Search airports"
+- tapOn: "ICAO, IATA, airport or city"
+- inputText: "KJFK"
+- assertVisible: "John F. Kennedy International Airport"
+- tapOn: "John F. Kennedy International Airport"
+- assertVisible: "KJFK"
+- tapOn: "Airport"
+- assertVisible: "Airport information"
+- assertVisible: "Runway wind"

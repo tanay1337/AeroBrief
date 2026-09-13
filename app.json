@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "AeroBrief",
+    "slug": "aerobrief",
+    "version": "0.16.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "scheme": "aerobrief",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-router",
+      "expo-sqlite"
+    ],
+    "android": {
+      "package": "com.aerobrief.android",
+      "versionCode": 94,
+      "permissions": [],
+      "blockedPermissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.VIBRATE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "monochromeImage": "./assets/monochrome-icon.png",
+        "backgroundColor": "#0B6670"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.aerobrief.ios",
+      "buildNumber": "94",
+      "supportsTablet": true
+    },
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {}
+    }
+  }
+}

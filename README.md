@@ -4,7 +4,7 @@
 
 <h1 align="center">AeroBrief</h1>
 
-<p align="center">Weather, flight planning, and your flying records in one Android app.</p>
+<p align="center">Weather, flight planning, and your flying records in one app.</p>
 
 AeroBrief brings airport weather, route planning, pre-flight materials, a pilot logbook, and aircraft Mass and Balance together. Plan a flight, collect its briefing and documents, then carry the route and flight details into your logbook.
 

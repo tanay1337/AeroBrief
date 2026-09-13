@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <mask id="runway-cutouts" maskUnits="userSpaceOnUse" x="0" y="0" width="1024" height="1024">
+      <rect width="1024" height="1024" fill="#FFFFFF"/>
+      <path d="M512 372V668" fill="none" stroke="#000000" stroke-width="21" stroke-linecap="round" stroke-dasharray="54 43"/>
+    </mask>
+  </defs>
+  <circle cx="512" cy="520" r="274" fill="none" stroke="#000000" stroke-width="34"/>
+  <path d="M512 214V266M512 774V826M206 520H258M766 520H818" fill="none" stroke="#000000" stroke-width="34" stroke-linecap="round"/>
+  <path d="M512 154L559 232H465L512 154Z" fill="#000000"/>
+  <g transform="rotate(45 512 520)" mask="url(#runway-cutouts)">
+    <rect x="446" y="334" width="132" height="372" rx="13" fill="#000000"/>
+  </g>
+</svg>

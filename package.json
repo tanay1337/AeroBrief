@@ -1,0 +1,81 @@
+{
+  "name": "aerobrief",
+  "version": "0.16.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "jest --runInBand",
+    "test:watch": "jest --watch",
+    "generate:airports": "node scripts/generate-airports.mjs",
+    "generate:leaflet": "node scripts/generate-leaflet-scripts.mjs",
+    "generate:pdfjs": "node scripts/generate-pdfjs-scripts.mjs",
+    "validate:data": "node scripts/validate-airports.mjs",
+    "doctor": "expo-doctor",
+    "bundle:android": "expo export --platform android --output-dir .expo-dist/android --clear",
+    "bundle:ios": "expo export --platform ios --output-dir .expo-dist/ios",
+    "bundle:check": "npm run bundle:android && npm run bundle:ios"
+  },
+  "dependencies": {
+    "@expo/dom-webview": "^57.0.1",
+    "@expo/vector-icons": "^15.1.1",
+    "@tanstack/react-query": "^5.102.8",
+    "expo": "~57.0.19",
+    "expo-constants": "~57.0.17",
+    "expo-dev-client": "~57.0.18",
+    "expo-file-system": "~57.0.6",
+    "expo-linking": "~57.0.9",
+    "expo-router": "~57.0.18",
+    "expo-sqlite": "~57.0.2",
+    "expo-status-bar": "~57.0.1",
+    "expo-system-ui": "~57.0.3",
+    "expo-web-browser": "~57.0.2",
+    "geomagnetism": "^0.2.0",
+    "i18next": "^26.4.1",
+    "leaflet": "^1.9.4",
+    "pako": "^3.0.1",
+    "pdfjs-dist": "^3.11.174",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-i18next": "^17.0.13",
+    "react-native": "0.86.3",
+    "react-native-gesture-handler": "~2.32.0",
+    "react-native-reanimated": "4.5.1",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "~4.26.0",
+    "react-native-svg": "15.15.4",
+    "react-native-web": "~0.21.0",
+    "react-native-worklets": "0.10.1",
+    "suncalc": "^1.9.0",
+    "tz-lookup": "^6.1.25"
+  },
+  "devDependencies": {
+    "@testing-library/react-native": "^14.0.1",
+    "@types/jest": "^30.0.0",
+    "@types/react": "~19.2.2",
+    "@types/suncalc": "^1.9.2",
+    "@types/tz-lookup": "^6.1.2",
+    "babel-preset-expo": "~57.0.10",
+    "csv-parse": "^6.1.0",
+    "eslint": "^9.39.5",
+    "eslint-config-expo": "~57.0.2",
+    "eslint-import-resolver-typescript": "^3.10.1",
+    "jest": "^29.7.0",
+    "jest-expo": "~57.0.5",
+    "react-test-renderer": "19.2.3",
+    "typescript": "~6.0.3"
+  },
+  "engines": {
+    "node": ">=20.19.4"
+  },
+  "allowScripts": {
+    "unrs-resolver@1.12.2": true
+  },
+  "overrides": {
+    "chrome-launcher": "0.15.2"
+  }
+}

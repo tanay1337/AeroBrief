@@ -17,7 +17,7 @@ AeroBrief brings airport weather, route planning, pre-flight materials, a pilot 
 2. Download the latest AeroBrief `.apk` file.
 3. Open it on your Android device and allow installation from that source if Android asks.
 
-Install an update over your existing AeroBrief app to retain local records. Release 0.16.0 uses the same signing identity as 0.15.13.
+Install an update over your existing AeroBrief app to retain local records.
 
 </details>
 
@@ -110,7 +110,7 @@ The application source supports an iOS production export. A packaged iOS release
 
 ## Local records
 
-Flights, settings, saved routes, aircraft profiles, and documents are stored on your device. AeroBrief does not require an AeroBrief account or provide a cloud-sync service. The airport reference database is bundled with the app; live weather, online charts, and satellite imagery require an internet connection.
+Flights, settings, saved routes, aircraft profiles, and documents are stored on your device. AeroBrief does not require an AeroBrief account or provide a cloud-sync service. The airport reference database is bundled with the app. Live weather, online charts, and satellite imagery require an internet connection.
 
 ## Development
 
@@ -142,7 +142,7 @@ For hosted builds, configure your own Expo account and project. `eas.json` defin
 
 **Source build note:** The optional native location implementation is absent from this source package. The GPS hook handles its absence, but a fresh native build cannot establish location feature parity with previously distributed APKs. Version 0.16.0 packages the new production application bundle in the existing compatible native shell. New native functionality requires a full native build.
 
-See [release notes](RELEASE_NOTES.md) and [release verification](RELEASE_VERIFICATION.json) for the current release.
+See [release verification](RELEASE_VERIFICATION.json) for the current release.
 
 </details>
 
@@ -186,4 +186,4 @@ Bug reports and improvements are welcome. For a bug report, include your app ver
 
 ## License
 
-Original AeroBrief code and project artwork are covered by the [MIT License](LICENSE). Preserve the included upstream copyright and license notices when redistributing the application or its source.
+[MIT License](LICENSE)
